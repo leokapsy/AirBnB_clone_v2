@@ -21,7 +21,11 @@ class test_fileStorage(unittest.TestCase):
         """ Remove storage file at end of tests """
         try:
             os.remove('file.json')
+<<<<<<< HEAD
+        except IndexError:
+=======
         except:
+>>>>>>> 9457667cd6b0647142268993f6e6e9f564614cd8
             pass
 
     def test_obj_list_empty(self):
